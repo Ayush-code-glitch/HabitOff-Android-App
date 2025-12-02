@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HabitOff</string>
+    <string name="tagline">Your Journey to a Smoke-Free Life</string>
+    <string name="app_logo">App Logo</string>
+
+    <!-- Login/Signup -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="dont_have_account">Dont have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="create_account">Create Account</string>
+    <string name="signup_subtitle">Start your smoke-free journey today</string>
+
+    <!-- Dashboard -->
+    <string name="welcome_back">Welcome back!</string>
+    <string name="days_quit">Days Quit</string>
+    <string name="money_saved">Money Saved</string>
+    <string name="cigarettes_avoided">Cigarettes Avoided</string>
+    <string name="health_improvements">Health Improvements</string>
+    <string name="view_profile">View Profile</string>
+    <string name="manage_account">Manage your account and settings</string>
+
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="account_info">Account Information</string>
+    <string name="quit_date">Quit Date:</string>
+    <string name="smoking_details">Smoking Details</string>
+    <string name="cigarettes_per_day">Cigarettes smoked per day (before quitting)</string>
+    <string name="price_per_cigarette">Price per cigarette</string>
+    <string name="update_profile">Update Profile</string>
+
+    <!-- Menu -->
+    <string name="logout">Logout</string>
+    <string name="about">About</string>
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+
+        <!-- Home Remedy 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/card_bg_selector"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="95dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_breathe"
+                android:contentDescription="Deep Breathe"
+                android:layout_marginEnd="14dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Deep Breathe: Try the 4-7-8 technique (inhale 4, hold 7, exhale 8 seconds)"
+                android:textSize="15sp"
+                android:textColor="@color/text_primary"/>
+        </LinearLayout>
+
+        <!-- Home Remedy 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/card_bg_selector"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_water"
+                android:contentDescription="Water"
+                android:layout_marginEnd="14dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sip cold water slowly or chew gum/saunf"
+                android:textSize="15sp"
+                android:textColor="@color/text_primary"/>
+        </LinearLayout>
+
+        <!-- Home Remedy 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/card_bg_selector"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_walk"
+                android:contentDescription="Walk"
+                android:layout_marginEnd="14dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Take a fast 5 minute walk or do 20 squats"
+                android:textSize="15sp"
+                android:textColor="@color/text_primary"/>
+        </LinearLayout>
+
+        <!-- Home Remedy 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/card_bg_selector"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_teeth"
+                android:contentDescription="Brush Teeth"
+                android:layout_marginEnd="14dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Brush teeth or wash face to reset a craving"
+                android:textSize="15sp"
+                android:textColor="@color/text_primary"/>
+        </LinearLayout>
+
+        <!-- Quit Tips Card  -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="6dp"
+            app:strokeColor="@color/primary"
+            app:strokeWidth="1dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How to Stop Smoking"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary"
+                    android:layout_marginBottom="9dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="✓ Pick a quit date    ✓ Remove cigarettes    ✓ Tell friends and family"
+                    android:textSize="15sp"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginBottom="4dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="✓ Remember why you want to quit: Health, money, happiness"
+                    android:textSize="15sp"
+                    android:textColor="@color/text_primary"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            app:cornerRadius="8dp"
+            android:layout_marginTop="18dp"/>
+    </LinearLayout>
+</ScrollView>
